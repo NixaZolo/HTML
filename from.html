@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        h3{
+            
+            color:orangered
+        }
+
+    </style>
+    <head>
+        <title>Personal Details</title>
+        <meta http-equiv="refresh" content="120">
+    </head>
+    <body  bgcolor="greenyellow" style="text-align: center;">
+        <h3><b>Personal Details</b></h3>
+        <form method="get">
+            <p>
+                Name:
+                <input type="text" name="name" required><br><br>
+                Password:
+                <input type="password" name="pass" minlength="8" required><br><br>
+                Email id:
+                <input type="email" name="email" required><br><br>
+                Gender:    
+                <input type="radio" name="male" value="male">
+                Male
+                <input type="radio" name="female" value="female">
+                Female<br><br>
+                Contact#: 
+                <input type="number" name="contact" value="contact" maxlength="10" required><br>
+                <h3>Educational Qualification</h3>
+                Degree:
+                <select required>
+                    <option>--Select Group--</option>
+                    <option>BCom</option>
+                    <option>BSc</option>
+                    <option>BA</option>
+                    <option>BCA</option>
+                    <option>BBA</option>
+                </select><br><br>
+                Engineering:
+                <select required>
+                    <option>--Select Group--</option>
+                    <option>Diploma</option>
+                    <option>Electric</option>
+                    <option>Hardware</option>
+                    <option>Software</option>
+                </select><br><br>
+                Hobbies:
+                <input type="radio" value="chess" name="chess"> Playing chess
+                <input type="radio" value="book" name="book"> Reading books <br>
+                <h3>Address</h3>
+                <textarea rows="5" cols="40" required></textarea> <br><br>
+                Attach Resume
+                <input type="file" value="file" name="file" required>
+
+                
+
+
+
+                
+
+            </p>
+            <button type="submit">
+                <img src="sum.png" alt="buttonpng"/>
+            </button>   
+        </form>
+    </body>
+</html>
